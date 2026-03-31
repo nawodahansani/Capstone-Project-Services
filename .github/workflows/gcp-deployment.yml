@@ -62,4 +62,3 @@ jobs:
                   --max-unavailable=0 \
                   --replacement-method=substitute \
                   --max-surge=3 \
-                  --version=template=projects/${{ secrets.GCP_PROJECT_ID}}/regions/${{ env.REGION }}/instanceTemplates/${{ env.INSTANCE_TEMPLATE}},name=0-1774974972006
